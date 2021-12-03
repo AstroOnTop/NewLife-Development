@@ -1,58 +1,28 @@
 {
-	"format_version": 2,
+	"format_version": 1,
 	"header": {
-		"name": "Astro Anticheat",
-		"description": "Best Bedrock Anticheat, Made By Astro",
-		"uuid": "53163abd-e50b-21a3-8648-7c33be31344e",
+		"name": "⋰     Astro Anticheat    ⋱",
+		"description": "§Made By: Astro",
+		"uuid": "2b8db254-cd98-4542-a67c-af2494ac907f",
 		"version": [
 			1,
 			0,
-			0
+			8
 		],
 		"min_engine_version": [
 			1,
-			17,
+			8,
 			0
 		]
 	},
 	"modules": [
 		{
 			"type": "data",
-			"uuid": "e9038306-e504-6fde-1076-0e501cb3f1f2",
+			"uuid": "3834064e-c7d3-4b02-aff7-d73b9f16ef87",
 			"version": [
 				1,
-				0,
-				0
-			]
-		},
-		{
-			"type": "javascript",
-			"uuid": "82fb8780-13d6-874d-0b7e-137954994f00",
-			"version": [
 				1,
-				0,
-				0
-			],
-			"entry": "scripts/modules/Main.js"
-		}
-	],
-	"dependencies": [
-		{
-			"description": "Minecraft module, required to use the Minecraft module",
-			"uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
-			"version": [
-				0,
-				1,
-				0
-			]
-		},
-		{
-			"description": "GameTest module, required to use the GameTest module",
-			"uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
-			"version": [
-				0,
-				1,
-				0
+				7
 			]
 		}
 	]

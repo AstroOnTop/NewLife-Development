@@ -1,5 +1,6 @@
 {
 	"values": [
-		"astro/onJoin"
+		"astro/onJoin",
+		"utility/main"
 	]
 }

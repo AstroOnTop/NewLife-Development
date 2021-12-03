@@ -1,0 +1,18 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.onTick": {
+			"timeline": {
+				"0.0": [
+					"/gamerule functioncommandlimit 10000",
+					"/function utility/main",
+					"/gamerule commandblockoutput false",
+					"/gamerule showcommandfeedback false",
+					"/gamerule chaincommandlimit 10000"
+				]
+			},
+			"animation_length": 0.01,
+			"loop": true
+		}
+	}
+}

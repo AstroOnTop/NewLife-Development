@@ -1,0 +1,1 @@
+event entity @s astro:ban_main

@@ -1295,7 +1295,7 @@
 					"run_command": {
 						"target": "self",
 						"command": [
-							"execute @s[] ~~~ function utility/clearall",
+							"execute @s ~~~ function utility/clearall",
 							"execute @s[scores={cbetoggledummy=1}] ~~~ scoreboard players add cbeflag 1",
 							"execute @s[scores={cbetoggledummy=1}] ~~~ function astro/asset/tempkick"
 						]

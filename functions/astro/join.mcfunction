@@ -1,3 +1,4 @@
+scoreboard objectives add welcome dummy welcome 
 scoreboard players add @a welcome 1
 scoreboard objectives add welcome dummy welcome
 execute @r[scores={welcome=120}] ~~~ /title @r title §cThis Realm Is Protected By §3→ §4Astro AntiCheat 

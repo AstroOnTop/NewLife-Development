@@ -6,4 +6,3 @@ tellraw @s[tag=admin] {"rawtext":[{"text":"§4EChest Clear /execute playername ~
 tellraw @s[tag=admin] {"rawtext":[{"text":"§4LagClearLevel1 /execute playername ~~~ /function utility/lagclearlevel1"}]}
 tellraw @s[tag=admin] {"rawtext":[{"text":"§4LagClearLevel2 /execute playername ~~~ /function utility/lagclearlevel2"}]}
 tellraw @s[tag=admin] {"rawtext":[{"text":"§4LagClearLevel3 /execute playername ~~~ /function utility/lagclearlevel3"}]}
-#i will finish more later when i add more admin commands - hyy

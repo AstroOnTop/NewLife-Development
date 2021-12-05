@@ -13,7 +13,8 @@
 					"oneShot",
 					"onDeath",
 					"detectAnimations",
-					"PopAnimation"
+					"PopAnimation",
+					"onTick2"
 				]
 			},
 			"animations": {
@@ -27,22 +28,13 @@
 				"is_gliding": "controller.animation.is_gliding",
 				"is__jumping": "controller.animation.is_jumping",
 				"timer": "controller.animation.timer",
-				"PopAnimation": "controller.animation.totempop"
+				"PopAnimation": "controller.animation.totempop",
+				"onTick2": "animation.onTick2"
 			}
 		},
 		"component_groups": {
 			"astro:ban": {
 				"minecraft:instant_despawn": {}
-			},
-			"minecraft:spectate": {
-				"minecraft:scale": {
-					"value": 0
-				}
-			},
-			"minecraft:no_spectate": {
-				"minecraft:scale": {
-					"value": 1
-				}
 			},
 			"minecraft:add_bad_omen": {
 				"minecraft:spell_effects": {

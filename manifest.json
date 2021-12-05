@@ -1,29 +1,36 @@
 {
-	"format_version": 1,
+	"format_version": 2,
 	"header": {
-		"name": "⋰     Astro Anticheat    ⋱",
-		"description": "§Made By: Astro",
-		"uuid": "2b8db254-cd98-4542-a67c-af2494ac907f",
-		"version": [
-			1,
-			0,
-			8
-		],
-		"min_engine_version": [
-			1,
-			8,
-			0
-		]
+		"name": "⋰    Astro Anticheat    ⋱",
+		"description": "§0Made By: Astro",
+		"uuid": "ce950661-0ed8-4e2a-9a6d-efb48c6693d7",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 210]
 	},
-	"modules": [
-		{
+	"modules": [{
 			"type": "data",
-			"uuid": "3834064e-c7d3-4b02-aff7-d73b9f16ef87",
+			"uuid": "9d43a3fd-3757-4bb7-953c-842e73f7ef6b",
 			"version": [
 				1,
-				1,
-				7
+				0,
+				0
 			]
+		},
+		{
+			"description": "Astro AntiCheat Scripts",
+			"type": "javascript",
+			"uuid": "225a473b-3840-4290-84f9-0ee1add44ac4",
+			"version": [0, 0, 1],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [{
+			"uuid": "7b8edefb-8f53-4219-9e8e-a6f1f55793ca",
+			"version": [0, 1, 0]
+		},
+		{
+			"uuid": "fda9c620-2a24-41e8-a8c1-1cc0c8bf301f",
+			"version": [0, 1, 0]
 		}
 	]
 }

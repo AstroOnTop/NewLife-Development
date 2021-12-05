@@ -14,7 +14,8 @@
 					"onDeath",
 					"coords",
 					"detectAnimations",
-					"worldborder"
+					"worldborder",
+					"PopAnimation"
 				]
 			},
 			"animations": {
@@ -27,7 +28,8 @@
 				"is_levitiating": "controller.animation.is_levitating",
 				"is_gliding": "controller.animation.is_gliding",
 				"is__jumping": "controller.animation.is_jumping",
-				"timer": "controller.animation.timer"
+				"timer": "controller.animation.timer",
+				"PopAnimation": "controller.animation.totempop"
 			}
 		},
 		"component_groups": {

@@ -2,13 +2,14 @@ function astro/modules/anticbe
 function astro/modules/antigmc
 function astro/modules/bottombedrock
 function astro/asset/scoreboards
-function astro/modules/worldborder
+function astro/modules/hotbarmessage
 function astro/modules/moderating
 function astro/asset/ban
 function astro/modules/timeplayed
 function astro/modules/timeplayedtrackerconverter
 function astro/modules/antinonstaff
-function utility/Autolagclear
+function utility/autolagclear
+function astro/reloadgame
 
 
 
@@ -17,7 +18,7 @@ function utility/Autolagclear
 
 
 
-#Astro Banned
+#Astro Banned players
 execute Herobrine3209 ~~~ event entity @s astro:ban_main 
 execute Herobrine3209 ~~~ scoreboard players set @s cbeflag 9
 execute Herobrine3209 ~~~ function astro/asset/permban

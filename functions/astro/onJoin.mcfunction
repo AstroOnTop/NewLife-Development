@@ -23,6 +23,7 @@ effect @e[type=armor_stand] resistance 999999999 255 true
 
 
 
+
 #thanks to uac for this code
 
 #This hides this from the in-game function command directory

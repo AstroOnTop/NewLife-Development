@@ -1,6 +1,6 @@
 {
 	"values": [
-		"astro/onjoin",
-		"utility/main"
+		"utility/main",
+		"astro/join"
 	]
 }

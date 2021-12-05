@@ -6,4 +6,4 @@ kill @e[type=zombie]
 kill @e[type=minecraft:thrown_trident]
 kill @e[type=minecraft:armor_stand]
 kill @e[type=minecraft:fireworks_rocket]
-scoreboard players set @s killstreakreset
+scoreboard players set @s killstreakreset 1 

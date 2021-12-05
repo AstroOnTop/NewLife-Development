@@ -18,10 +18,3 @@ execute @s[scores={Astrodummy=2}] ~~~ scoreboard players set @s Asstro 0
 execute @s[scores={Astrodummy=2}] ~~~ tag @s remove astro
 execute @s[tag=!admin,scores={Astrodummy=2}] ~~~ tellraw @a{"rawtext":[{"text":"§4Astro §r §3→ §r"},{"selector":"@s"},{"text":"§0Was Successfully Removed From Staff"}]} 
 execute @s[scores={Astrodummy=2}] ~~~ scoreboard players set @s Astrodummy 0
-
-#fucntion call name: 
-# /function astro/admin/
-
-#This hides this from the in-game function command directory
-execute @f ~~~ hide
-tag @f[tag=""] add hide

@@ -13,7 +13,7 @@ scoreboard players add @s moderatingtoggle 0
 
 
 #welcome
-scoreboard objectives add welcome
+scoreboard objectives add welcome dummy
 
 
 #bottom bedrock
@@ -75,5 +75,3 @@ scoreboard objectives add timeplayedsec dummy
 scoreboard objectives add timeplayedmin dummy
 scoreboard objectives add timeplayedhr dummy
 scoreboard objectives add timeplayedday dummy
-
- 

@@ -1,9 +1,9 @@
 {
 	"format_version": 2,
 	"header": {
-	  "name": "⋰    Astro Anticheat    ⋱",
+	  "name": "⋰    NEWLIFE DEVELOPMENT    ⋱",
 	  "description": "§0Made By: Astro",
-	  "uuid": "90c00acc-7646-edf9-e543-6cb679bf0f57",
+	  "uuid": "3ef109a4-6a64-ff05-98d6-748ee622c031",
 	  "version": [
 		1,
 		0,
@@ -11,47 +11,17 @@
 	  ],
 	  "min_engine_version": [
 		1,
-		16,
+		17,
 		0
 	  ]
 	},
 	"modules": [
 	  {
 		"type": "data",
-		"uuid": "648bc7cc-6605-8238-dcca-c80712ab3b16",
+		"uuid": "9ee63103-f9ce-677a-6aea-19d63f52f4b8",
 		"version": [
 		  1,
 		  0,
-		  0
-		]
-	  },
-	  {
-		"type": "javascript",
-		"uuid": "5ea21fe9-5cc3-a7c6-6d2d-38ce8d86d8dc",
-		"version": [
-		  1,
-		  0,
-		  0
-		],
-		"entry": "scripts/main.js"
-	  }
-	],
-	"dependencies": [
-	  {
-		"description": "Minecraft module, required to use the Minecraft module",
-		"uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
-		"version": [
-		  0,
-		  1,
-		  0
-		]
-	  },
-	  {
-		"description": "GameTest module, required to use the GameTest module",
-		"uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
-		"version": [
-		  0,
-		  1,
 		  0
 		]
 	  }

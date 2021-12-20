@@ -1,6 +1,6 @@
 {
 	"values": [
-		"utility/main",
-		"astro/join"
+		"join",
+		"arenaclearticker"
 	]
 }

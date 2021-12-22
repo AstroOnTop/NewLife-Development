@@ -24,6 +24,9 @@
             },
             "minecraft:wearable": {
                 "slot": "slot.armor.feet"
+            },
+            "minecraft:knockback_resistance": {
+                "protection": 0.0
             }
         }
     }

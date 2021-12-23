@@ -154,17 +154,17 @@
                         "event": "astro:dmg",
                         "target": "self"
                     }
-                ]
-            }
-        }
-        "events": {
-            "astro:dmg": {
-                "run_command": {
-                    "target": "self",
-                    "command": [
-                        "/"
-                    ]
                 }
+            ]
+        }
+    },
+    "events": {
+        "astro:dmg": {
+            "run_command": {
+                "target": "self",
+                "command": [
+                    "/function kb/tp1"
+                ]
             }
         }
     }

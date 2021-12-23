@@ -151,114 +151,20 @@
             "triggers": [
                 {
                     "on_damage": {
-                        "filters": {
-                            "any_of": [
-                                {
-                                    "all_of": [
-                                        {
-                                            "test": "has_tag",
-                                            "value": "32kable",
-                                            "subject": "self"
-                                        },
-                                        {
-                                            "test": "has_damage",
-                                            "value": "fatal"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "deals_damage": false
-                },
-                {
-                    "on_damage": {
-                        "filters": {
-                            "all_of": [
-                                {
-                                    "test": "has_damage",
-                                    "operator": "==",
-                                    "value": "attack"
-                                },
-                                {
-                                    "test": "is_family",
-                                    "operator": "==",
-                                    "subject": "other",
-                                    "value": "player"
-                                },
-                                {
-                                    "test": "has_damage",
-                                    "operator": "==",
-                                    "subject": "self",
-                                    "value": "fatal"
-                                }
-                            ]
-                        },
-                        "event": "astro:player_death"
+                        "event": "astro:dmg",
+                        "target": "self"
                     }
-                },
-                {
-                    "on_damage": {
-                        "filters": {
-                            "all_of": [
-                                {
-                                    "test": "has_damage",
-                                    "operator": "==",
-                                    "value": "projectile"
-                                },
-                                {
-                                    "test": "is_family",
-                                    "operator": "==",
-                                    "subject": "other",
-                                    "value": "player"
-                                },
-                                {
-                                    "test": "has_damage",
-                                    "operator": "==",
-                                    "subject": "self",
-                                    "value": "fatal"
-                                }
-                            ]
-                        },
-                        "event": "astro:player_death"
-                    }
-                },
-                {
-                    "on_damage": {
-                        "filters": {
-                            "all_of": [
-                                {
-                                    "test": "has_damage",
-                                    "operator": "==",
-                                    "value": "magic"
-                                },
-                                {
-                                    "test": "is_family",
-                                    "operator": "==",
-                                    "subject": "other",
-                                    "value": "player"
-                                },
-                                {
-                                    "test": "has_damage",
-                                    "operator": "==",
-                                    "subject": "self",
-                                    "value": "fatal"
-                                }
-                            ]
-                        },
-                        "event": "astro:player_death"
-                    }
-                }
-            ]
-        }
-    },
-    "events": {
-        "astro:player_death": {
-            "run_command": {
-                "target": "self",
-                "command": [
-                    "/"
                 ]
+            }
+        }
+        "events": {
+            "astro:dmg": {
+                "run_command": {
+                    "target": "self",
+                    "command": [
+                        "/"
+                    ]
+                }
             }
         }
     }

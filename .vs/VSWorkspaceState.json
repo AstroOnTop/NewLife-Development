@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\entities",
-    "\\functions"
+    "\\functions",
+    "\\items",
+    "\\structures"
   ],
-  "SelectedNode": "\\entities\\ender_crystal.json",
+  "SelectedNode": "\\functions\\join.mcfunction",
   "PreviewInSolutionExplorer": false
 }
